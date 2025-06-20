@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castle & Dragon Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Castle & Dragon Puzzle</h1>
+        <div class="game-info">
+            <div class="moves">Moves: <span id="moves">0</span></div>
+            <button id="reset-button">Reset Game</button>
+        </div>
+        <div class="image-selector">
+            <button id="castle-image">Castle</button>
+            <button id="dragon-image">Dragon</button>
+            <button id="castle-dragon-image">Castle & Dragon</button>
+        </div>
+        <div class="puzzle-container" id="puzzle-container"></div>
+    </div>
+    <div class="win-message" id="win-message">
+        <div class="message-content">
+            <h2>Congratulations!</h2>
+            <p>You've completed the puzzle in <span id="final-moves">0</span> moves!</p>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
